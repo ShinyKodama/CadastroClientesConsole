@@ -1,0 +1,14 @@
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.AssemblyInfoInputs.cache
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.AssemblyInfo.cs
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\bin\Debug\net9.0\CadastroClientesConsole.exe
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\bin\Debug\net9.0\CadastroClientesConsole.deps.json
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\bin\Debug\net9.0\CadastroClientesConsole.runtimeconfig.json
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\bin\Debug\net9.0\CadastroClientesConsole.dll
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\bin\Debug\net9.0\CadastroClientesConsole.pdb
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.dll
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\refint\CadastroClientesConsole.dll
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.pdb
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.genruntimeconfig.cache
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\ref\CadastroClientesConsole.dll
