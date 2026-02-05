@@ -88,10 +88,39 @@ class Program
                 Console.Clear();
                 CarregarCadastro(@"C:/Users/Lucas/Desktop/Dados");
             }
+            else if (op == 5)
+            {
+                int id; string ID;
+                do
+                {
+                    if (clientes.Count == 0) {
+                        ListarCadastros();
+                        break;
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        ListarCadastrosDELETE();
+                        Console.WriteLine(" Digite '0' se quiser sair! ");
+                        RequisitarDadoCliente("ID", ConsoleColor.Gray, ConsoleColor.DarkBlue);
+                        ID = Console.ReadLine();
+
+                        if (ID == "0")
+                            break;                        
+
+                        if (!int.TryParse(ID, out id))
+                            continue;
+
+                        ApagarCadastro(id);        
+                        break;
+                    }
+
+                    
+                } while (true);
+                
+            }
         }
     }
-
-
     static void NovoCadastro()
     {
         string titulo = "REALIZAR NOVO CADASTRO", nome = "", IDADE = "", CPF = "";
@@ -199,6 +228,32 @@ class Program
         }
     }
 
+    static void ListarCadastrosDELETE()
+    {
+        string titulo = "APAGAR CADASTRO POR ID";
+        Console.Clear();
+        Console.WriteLine($"{new string('-', 10)} {titulo} {new string('-', 10)}");
+        if (clientes.Count == 0)
+        {
+            Console.WriteLine($"   {new string('-', 43)}");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("        NENHUM REGISTRO FOI FEITO AINDA! ");
+            Console.ResetColor();
+            Console.WriteLine($"   {new string('-', 43)}");
+            VoltarAoMenu();  
+        } 
+        else
+        {
+            foreach (dynamic c in clientes)
+            {
+                Console.WriteLine($"{new string('-', 43)}");
+                c.ListarCliente();
+                Console.WriteLine($"{new string('-', 43)}");
+            }
+            Console.WriteLine($"{new string('-', titulo.Length + 23)}"); 
+        }
+    }
+
     static void SalvarCadastro(string pasta)
     {
         Directory.CreateDirectory(pasta);
@@ -231,6 +286,30 @@ class Program
             System.Reflection.BindingFlags.NonPublic) ?.SetValue(null, clientes.Max(c => c.Id) + 1);
         
         VoltarAoMenu();
+    }
+
+    static void ApagarCadastro(int id)
+    {
+        Cliente c = clientes.FirstOrDefault(x => x.Id == id);
+
+        if (c == null)
+        {
+            Console.WriteLine("Cadastro não encontrado.");
+            return;
+        }
+
+        Console.Write($" Deseja apagar {c.Nome}? (S/N): ");
+        string resp = Console.ReadLine().ToLower();
+        Console.WriteLine();
+
+        if (resp != "s")
+        {
+            Console.WriteLine("Operação cancelada.");
+            return;
+        }
+
+        clientes.Remove(c);
+        Console.WriteLine("Cadastro apagado.");
     }
 
     static void ErrorData(string texto)
@@ -290,7 +369,7 @@ class Program
 
             Console.WriteLine(
                 new string('█', preenchido) +
-                new string('☰', total - preenchido)
+                new string('#', total - preenchido)
             );
 
             Thread.Sleep(700);

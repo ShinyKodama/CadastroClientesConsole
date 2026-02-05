@@ -12,3 +12,4 @@ C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsol
 C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.pdb
 C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.genruntimeconfig.cache
 C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\ref\CadastroClientesConsole.dll
+C:\Users\Lucas\Documents\ORGANIZAR_COMPUTADOR\PROJETOS\C#\CadastroClientesConsole\obj\Debug\net9.0\CadastroClientesConsole.sourcelink.json
